@@ -29,7 +29,8 @@ public class MainActivity extends Activity implements OnClickListener {
 	public void onClick(View v) {
 		switch (v.getId()) {
 		case R.id.button1:
-				
+				AlertDialog aler = new AlertDialog(this, "Title","This is alert have two Button");
+				aler.show();
 			break;
 		}
 	}
